@@ -12,7 +12,7 @@ const localtunnel = require('../localtunnel');
 
 const createTunnel = () =>
     localtunnel({
-      port: 8000,
+      port: 7860,
       host: 'http://14.117.214.230:3010',
     }).then(tunnel => {
       console.log('your url is: %s', tunnel.url);
